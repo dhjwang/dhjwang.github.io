@@ -51,7 +51,6 @@ body {
   outline: none;
 }
 
-#btn:hover {background-color: rgb(243, 233, 147)}
 
 #btn:active {
   height:11.9vh;
@@ -102,6 +101,8 @@ body {
 
 
 @media only screen and (min-width: 992px){
+  #btn:hover {background-color: rgb(243, 233, 147)}
+
   .newmon:hover {background-color: rgb(243, 233, 147)}
 }
 
