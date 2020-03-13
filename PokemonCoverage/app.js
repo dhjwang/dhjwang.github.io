@@ -196,10 +196,6 @@ function getthem(){
 }
 
 
-// add: ability related coverage
-// add: recommend strong / full evo pokemon (base stats)
-
-
  var pokemon = Object.keys(BattlePokedex).map(function(x) { return BattlePokedex[x].species });
 
  var pokemon = new Bloodhound({
